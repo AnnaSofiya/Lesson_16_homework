@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Homework Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div>homework #16</div>
+		</header>
+
+		<main class="main">
+			<div class="appoitment">
+				<div class="appoitment__contanier">
+					<div class="appoitment__forms appoitment-form">
+						<div class="appoitment-form__title">
+							<h2> Make an appoitment</h2>
+						</div>
+						<form class="appoitment-form__items" action="#">
+							<div class="appoitment-form__inputs">
+								<input required placeholder="Name" name="username" value="" type="text"
+									class="appoitment-form__input">
+							</div>
+							<div class="appoitment-form__inputs">
+								<input placeholder="Email" required name="email" value="" type="email"
+									class="appoitment-form__input">
+							</div>
+							<div class="appoitment-form__inputs">
+								<input required placeholder="Phone Number" name="phone" type="tel"
+									class="appoitment-form__input">
+							</div>
+							<div class="appoitment-form__inputs">
+								<input placeholder="Select Service" required value="" name="Select Service" type="text"
+									class="appoitment-form__input">
+							</div>
+							<textarea autocomplete="off" name="text"
+								class="appoitment-form__textarea">Tell us about your puppers include his/her name</textarea>
+						</form>
+						<div class="appoitment-form__button">
+							<button class="appoitment__button">make an appoitment</button>
+						</div>
+					</div>
+					<div class="appoitment__text text-appoitment">
+						<p class="text-appoitment__top">OUR IMPACT</p>
+						<p class="text-appoitment__number">
+							5,700+
+						</p>
+						<p class="text-appoitment__bottom">customers served</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="registered-customers">
+				<div class="registered-customers__contanier">
+					<div class="registered-customers__title title">
+						<div class="title__subtitle">Registered Customers</div>
+						<div class="title__text">If you have an account, sign in with your email address.</div>
+					</div>
+
+					<div class="registered-customers__forms form">
+						<form class="form">
+							<div class="form__info">
+								<div class="form__inputs">
+									<label for="inputname" class="form__inputs-label">Email</label>
+									<span>*</span>
+									<input id="inputname" class="form__inputs-input" autocomplete="off" required
+										placeholder="Your name" name="inputname" value="" type="text">
+								</div>
+								<div class="form__inputs">
+									<label for="password" class="form__inputs-label">Password </label>
+									<span>*</span>
+									<input id="password" class="form__inputs-input" autocomplete="off" required
+										placeholder="Your name" name="string" value="" type="text">
+								</div>
+							</div>
+							<div class="form__button">
+								<button type="submit" class="form__button-sign">Sing in</button>
+								<a href="#" target="blank" class="form__button-forgot">Forgot Your Password?</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="summary">
+				<div class="summary__contanier">
+					<div class="summary__title title-summary">
+						<h2 class="title-summary__subtitle subtitle">Summary</h2>
+						<p class="title-summary__text text-lite">Estimate Shipping and Tax</p>
+						<p class="title-summary__text_lite">Enter your destination to get a shipping estimate.</p>
+					</div>
+					<div class="summary__forms">
+						<form class="summary__form form" action="#">
+							<div class="form__line">
+								<label class="form__line-label">Country</label>
+								<select name="select" class="form__select">
+									<option value="1" selected>Austalia</option>
+									<option value="2">Russia</option>
+									<option value="3">USA</option>
+									<option value="4">Canada</option>
+									<option value="5">Poland</option>
+									<option value="6">Germany</option>
+									<option value="7">Norway</option>
+								</select>
+							</div>
+							<div class="form__inputs">
+								<label for="state" class="form__inputs-label">State/Province</label>
+								<input id="state" class="form__inputs-input" autocomplete="off" required placeholder=""
+									name="state" value="" type="text">
+							</div>
+							<div class="form__inputs">
+								<label class="form__inputs-label" for="zipss">Zip/Postal Code</label>
+								<input id="zipss" class="form__inputs-input" autocomplete="off" required placeholder=""
+									name="zipss" value="" type="text">
+							</div>
+
+							<div class="form__radio">
+								<label class="form__radio-title">Standard Rate</label>
+								<div class="form__item">
+									<input checked type="radio" name="summary" class="form__item-input">
+									<label class="form__item-label">Price may vary depending on
+										the
+										item/destination. Shop Staff will contact you. $21.00</label>
+								</div>
+							</div>
+
+							<div class="form__radio">
+								<label class="form__radio-title">Pickup from store</label>
+								<div class="form__item">
+									<input checked type="radio" name="summary" class="form__item-input">
+									<label class="form__item-label">1234 Street Adress City
+										Address, 1234 $0.00</label>
+								</div>
+							</div>
+							<div class="title-summary__text">
+								<p>Apply Discount Code</p>
+							</div>
+							<div class="form__inputs">
+								<label class="form__inputs-label">Enter discount code</label>
+								<input class="form__inputs-input" autocomplete="off" required placeholder="Enter discount code"
+									name="inname" value="" type="text">
+							</div>
+							<div class="form__buttons">
+								<button class="form__but" type="submit">Aplly Discount</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="shipping-adress">
+				<div class="shipping-adress__contanier">
+					<div class="shipping-adress__title">
+						<h2 class="subtitle">Shipping Adress</h2>
+						<div class="subtitle__line"></div>
+					</div>
+					<div class="shipping-adress__forms">
+						<form action="#" class="shipping-adress__form form">
+							<div class="form__inputs">
+								<label class="form__inputs-label" for="email">Email Adress</label>
+								<input id="email" class="form__inputs-input" required placeholder="" name="string" type="text">
+							</div>
+							<p class="text-lite">You can create an account after checkout.</p>
+							<div class="form-adress__inputs">
+								<label class="form__inputs-label" for="name">First Name</label>
+								<input id="name" class="form__inputs-input" required placeholder="" name="string" type="text">
+							</div>
+							<div class="form-adress__inputs">
+								<label class="form__inputs-label" for="last-name">last name</label>
+								<input id="last-name" class="form__inputs-input" required placeholder="" name="string"
+									type="text">
+							</div>
+							<div class="form-adress__inputs">
+								<label class="form__inputs-label" for="company">Company</label>
+								<input id="company" class="form__inputs-input" required placeholder="" name="string"
+									type="text">
+							</div>
+							<div class="form-adress__inputs">
+								<label class="form__inputs-label" for="street">Street Address</label>
+								<input id="street" class="form__inputs-input" required placeholder="" name="string" type="text">
+							</div>
+							<div class="form-adress__inputs">
+								<label class="form__inputs-label" for="city">City</label>
+								<input id="city" class="form__inputs-input" required placeholder="" name="string" type="text">
+							</div>
+							<div class="form-adress__inputs">
+								<label class="form__inputs-label" for="province">State/Province</label>
+								<input id="province" class="form__inputs-input" required
+									placeholder="Please, select a region, state or province" name="province" type="text">
+							</div>
+							<div class="form-adress__inputs">
+								<label class="form__inputs-label" for="zips">Zip/Pastal Code</label>
+								<input id="zips" class="form__inputs-input" required placeholder="" name="zips" type="text">
+							</div>
+							<div class="form__line">
+								<label class="form__line-label">Country</label>
+								<select name="select" class="form__select">
+									<option value="1" selected>Austalia</option>
+									<option value="2">Russia</option>
+									<option value="3">USA</option>
+									<option value="4">Canada</option>
+									<option value="5">Poland</option>
+									<option value="6">Germany</option>
+									<option value="7">Norway</option>
+								</select>
+							</div>
+							<div class="form-adress__inputs">
+								<label class="form__inputs-label" for="phone">Phone Number</label>
+								<input id="phone" class="form__inputs-input" required placeholder="" name="string" type="tel">
+							</div>
+							<div class="form__radio">
+								<label class="form__radio-title">Standard Rate</label>
+								<div class="form__item">
+									<input checked type="radio" name="summary" class="form__item-input">
+									<label class="form__item-label">Price may vary depending on
+										the
+										item/destination. Shop Staff will contact you. $21.00</label>
+								</div>
+							</div>
+
+							<div class="form__radio">
+								<label class="form__radio-title">Pickup from store</label>
+								<div class="form__item">
+									<input checked type="radio" name="summary" class="form__item-input">
+									<label class="form__item-label">1234 Street Adress City
+										Address, 1234 $0.00</label>
+								</div>
+							</div>
+							<div class="form__button">
+								<button type="submit" class="form__button-sign">Next</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<footer class="footer">
+			<div>Lesson 16</div>
+		</footer>
+	</div>
+</body>
+
+</html>
